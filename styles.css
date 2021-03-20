@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* body * {
+	outline: 1px dotted red;
+} */
+
+body {
+	background: #000;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	background: #f5f5f5; /*#4d3a42;*/
+	margin: 0 auto; /*center tje container*/
+}
+
+header {
+	padding: 20px;
+	color: #040405;
+}
+
+header h1,
+header h2 {
+	display: inline-block;
+}
+
+section {
+	/* background: #4d3a42; */
+	background: rgb(67, 51, 58);
+	background: linear-gradient(0deg, rgba(67, 51, 58, 1) 0%, rgba(189, 167, 176, 1) 50%, rgba(67, 51, 58, 1) 100%);
+}
+
+/* global */
+.div-heading {
+	background: rgb(102, 102, 102);
+	background: linear-gradient(0deg, rgba(102, 102, 102, 1) 0%, rgba(142, 141, 153, 1) 50%, rgba(102, 102, 102, 1) 100%);
+	padding: 10px;
+	color: #fff;
+}
+
+/* about */
+
+.about-section {
+	padding: 20px;
+}
+
+.about-section .about {
+	width: 600px;
+}
+
+.about-section .about .about-content {
+	background: lightgray;
+	padding: 20px 50px 20px 10px;
+}
+
+.about-section .about .about-content p {
+	margin-bottom: 20px;
+}
+
+.about-section .image,
+.about-section .about {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* boxes */
+
+.boxes {
+	margin-top: 10px;
+}
+
+.box {
+	background: rgb(247, 245, 246);
+	background: linear-gradient(0deg, rgba(247, 245, 246, 1) 0%, rgba(174, 148, 159, 1) 50%, rgba(174, 148, 159, 1) 100%);
+
+	/* background: #ae949f; */
+	/* padding-bottom: 20px; */
+
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.box p {
+	padding: 10px;
+	min-height: 170px;
+}
+
+.technologies {
+	padding: 20px;
+}
+
+.box .link-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.project-link {
+	background: #417e63;
+	color: #fff;
+	padding: 8px;
+	border-radius: 20px;
+	text-decoration: none;
+	border: 1px solid #000;
+	/* box shadow */
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+/* footer */
+footer {
+	text-align: center;
+	padding: 10px;
+}
+
+footer p {
+	margin-bottom: 10px;
+}
+
+footer .social-media img {
+	width: 20px;
+	margin-right: 5px;
+}
+
+footer a {
+	font-style: italic;
+	color: #191919;
+}

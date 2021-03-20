@@ -1,0 +1,153 @@
+@media only screen and (max-width: 480px) {
+	.container-sm {
+		width: 100%;
+	}
+
+	header {
+		text-align: center;
+	}
+	header h1 {
+		margin-right: 0px;
+	}
+
+	.about-section .image {
+		margin-bottom: 10px;
+	}
+	.about-section .image img {
+		width: 95%;
+	}
+
+	.about-section .about {
+		width: 100%;
+	}
+
+	.about-section .about .about-content {
+		/* background: lightgray; */
+		padding: 20px 20px 20px 10px;
+	}
+
+	.box {
+		width: 100%;
+		min-height: 730px;
+		margin-bottom: 10px;
+	}
+
+	.box img {
+		width: 100%;
+	}
+	.technologies {
+		margin: 0 auto;
+		padding: 15px 0px 1px 33px;
+	}
+	.technologies img {
+		width: 50px;
+	}
+
+	.box .link-container.sm-button-container {
+		margin-top: 91px;
+	}
+
+	footer {
+		padding: 12px;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.container-md {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.container-md {
+		width: 100%;
+	}
+
+	header h1 {
+		margin-right: 0px;
+		display: block;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	.about {
+		margin-bottom: 10px;
+	}
+
+	.about-section .image {
+		margin-bottom: 10px;
+	}
+	.about-section .image img {
+		width: 97%;
+	}
+
+	.about-section .about {
+		width: 100%;
+	}
+
+	.about-section .about .about-content {
+		padding: 20px 20px 20px 10px;
+	}
+
+	.box {
+		width: 100%;
+		min-height: 860px;
+		margin-bottom: 20px;
+	}
+
+	.box img {
+		width: 100%;
+	}
+
+	.technologies {
+		text-align: center;
+	}
+	.technologies img {
+		width: 10%;
+	}
+
+	.box .link-container.md-button-container {
+		margin-bottom: 21px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.container-lg {
+		width: 1200px;
+	}
+
+	header h1 {
+		margin-right: 450px;
+		display: inline-block;
+	}
+
+	.about-section .image img {
+		width: 500px;
+		border: 8px solid gray;
+		margin-right: 20px;
+	}
+
+	.about-section .about {
+		width: 600px;
+	}
+
+	.box {
+		width: 370px;
+		min-height: 700px;
+	}
+
+	.box img {
+		width: 370px;
+	}
+
+	.technologies img {
+		width: 50px;
+		margin-right: 10px;
+	}
+
+	.box .link-container.md-button-container {
+		margin-bottom: 0px;
+	}
+}
