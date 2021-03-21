@@ -44,17 +44,11 @@
 	}
 
 	.box .link-container.sm-button-container {
-		margin-top: 91px;
+		margin-top: 80px;
 	}
 
 	footer {
 		padding: 12px;
-	}
-}
-
-@media only screen and (min-width: 481px) {
-	.container-md {
-		width: 100%;
 	}
 }
 
