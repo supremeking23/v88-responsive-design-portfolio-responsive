@@ -10,10 +10,8 @@
 		margin-right: 0px;
 	}
 
-	.about-section .image {
+	.about-section img {
 		margin-bottom: 10px;
-	}
-	.about-section .image img {
 		width: 95%;
 	}
 
@@ -37,7 +35,7 @@
 	}
 	.technologies {
 		margin: 0 auto;
-		padding: 15px 0px 1px 33px;
+		/* padding: 15px 0px 1px 33px; */
 	}
 	.technologies img {
 		width: 50px;
@@ -49,6 +47,10 @@
 
 	footer {
 		padding: 12px;
+	}
+
+	.sm {
+		display: none;
 	}
 }
 
@@ -70,10 +72,8 @@
 		margin-bottom: 10px;
 	}
 
-	.about-section .image {
+	.about-section img {
 		margin-bottom: 10px;
-	}
-	.about-section .image img {
 		width: 97%;
 	}
 
@@ -117,7 +117,7 @@
 		display: inline-block;
 	}
 
-	.about-section .image img {
+	.about-section img {
 		width: 500px;
 		border: 8px solid gray;
 		margin-right: 20px;

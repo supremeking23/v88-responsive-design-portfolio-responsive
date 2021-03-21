@@ -13,11 +13,14 @@ body {
 }
 
 .container {
-	background: #f5f5f5; /*#4d3a42;*/
+	/* background: #f5f5f5; */
 	margin: 0 auto; /*center tje container*/
+	background: rgb(67, 51, 58);
+	background: linear-gradient(0deg, rgba(67, 51, 58, 1) 0%, rgba(189, 167, 176, 1) 50%, rgba(67, 51, 58, 1) 100%);
 }
 
 header {
+	background: #f5f5f5;
 	padding: 20px;
 	color: #040405;
 }
@@ -27,24 +30,28 @@ header h2 {
 	display: inline-block;
 }
 
-section {
-	/* background: #4d3a42; */
-	background: rgb(67, 51, 58);
-	background: linear-gradient(0deg, rgba(67, 51, 58, 1) 0%, rgba(189, 167, 176, 1) 50%, rgba(67, 51, 58, 1) 100%);
-}
-
 /* global */
-.div-heading {
+/* .div-heading {
 	background: rgb(102, 102, 102);
 	background: linear-gradient(0deg, rgba(102, 102, 102, 1) 0%, rgba(142, 141, 153, 1) 50%, rgba(102, 102, 102, 1) 100%);
 	padding: 10px;
 	color: #fff;
-}
+} */
 
 /* about */
 
 .about-section {
 	padding: 20px;
+}
+
+.about-section img {
+	border: 8px solid gray;
+}
+
+.about-section img,
+.about-section .about {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .about-section .about {
@@ -56,20 +63,24 @@ section {
 	padding: 20px 50px 20px 10px;
 }
 
-.about-section .about .about-content p {
-	margin-bottom: 20px;
+.about-section .about h2,
+.boxes .box h2,
+.boxes .box h3 {
+	background: rgb(102, 102, 102);
+	background: linear-gradient(0deg, rgba(102, 102, 102, 1) 0%, rgba(142, 141, 153, 1) 50%, rgba(102, 102, 102, 1) 100%);
+	padding: 10px;
+	color: #fff;
 }
 
-.about-section .image,
-.about-section .about {
-	display: inline-block;
-	vertical-align: top;
+.about-section .about .about-content p {
+	margin-bottom: 20px;
 }
 
 /* boxes */
 
 .boxes {
-	margin-top: 10px;
+	/* margin-top: 10px; */
+	padding: 20px;
 }
 
 .box {
@@ -114,6 +125,7 @@ section {
 footer {
 	text-align: center;
 	padding: 10px;
+	background: #f5f5f5;
 }
 
 footer p {
